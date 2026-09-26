@@ -120,16 +120,16 @@ The review results are intended to assist developers during code review and do n
 
 🖥️ Screenshots
 Dashboard
-Screenshot (797).png
+![CodeGuard AI Dashboard](./Screenshot%20%28797%29.png)
 
 AI Code Review Result
-Screenshot (802).png
+![CodeGuard AI Review Result](./Screenshot%20%28802%29.png)
 
 Findings
-Screenshot (803).png
+![CodeGuard AI Findings](./Screenshot%20%28803%29.png)
 
 Dark Mode
-Screenshot (795).png
+![CodeGuard AI Dark Mode](./Screenshot%20%28795%29.png)
 
 🛠️ Technology Stack
 Backend
