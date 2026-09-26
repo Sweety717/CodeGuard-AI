@@ -1,0 +1,240 @@
+# CodeGuard AI
+
+### Self-Hosted AI Code Review for GitHub Pull Requests
+
+CodeGuard AI is a self-hosted AI-powered code review platform built with Java 17+ and Spring Boot.
+
+It analyzes GitHub Pull Requests using configurable AI providers and identifies potential bugs, security issues, performance problems, and best-practice violations.
+
+The project is designed for developers who want to build and customize their own AI-assisted code review workflow.
+
+
+## 🚀 Features
+
+- 🤖 AI-powered GitHub Pull Request reviews
+- 🐛 Bug and logic issue detection
+- 🔐 Security issue detection
+- ⚡ Performance analysis
+- ✅ Best-practice checks
+- 📊 Code quality scoring
+- ⚠️ Risk assessment
+- 🎯 AI confidence scoring
+- 💬 Automatic GitHub review comments
+- 🔄 Automatic reviews through GitHub webhooks
+- 📝 Manual Pull Request reviews
+- 📚 Review history
+- 📈 Review trend tracking
+- 📄 Markdown export
+- 📑 PDF export
+- 🌙 Light and dark mode
+- 🔌 Multiple AI provider support
+
+
+## 🧠 Supported AI Providers
+
+CodeGuard AI supports multiple AI providers:
+
+- OpenAI
+- Google Gemini
+- Ollama
+
+The AI provider can be changed through configuration without changing the core review workflow.
+
+This makes it possible to use cloud-based models or a locally running AI provider depending on your requirements.
+
+
+
+## 🔄 How It Works
+
+GitHub Pull Request
+        ↓
+GitHub Webhook
+        ↓
+CodeGuard AI
+        ↓
+Fetch PR Changes
+        ↓
+AI Analysis
+        ↓
+Security / Bug / Performance Review
+        ↓
+Quality & Risk Assessment
+        ↓
+GitHub Review Comment
+
+                    GitHub
+                       │
+                       │ Pull Request
+                       ▼
+              GitHub Webhook
+                       │
+                       ▼
+             ┌──────────────────┐
+             │   CodeGuard AI   │
+             │   Spring Boot    │
+             └────────┬─────────┘
+                      │
+              Fetch PR Changes
+                      │
+                      ▼
+             AI Review Service
+                      │
+          ┌───────────┼───────────┐
+          ▼           ▼           ▼
+       OpenAI      Gemini       Ollama
+          │           │           │
+          └───────────┼───────────┘
+                      ▼
+              Structured Findings
+                      │
+          ┌───────────┼───────────┐
+          ▼           ▼           ▼
+        Bugs      Security    Performance
+          │           │           │
+          └───────────┼───────────┘
+                      ▼
+              Quality / Risk Score
+                      │
+             ┌────────┴────────┐
+             ▼                 ▼
+        Dashboard       GitHub Review
+
+📊 Review Results
+
+A CodeGuard AI review can provide information such as:
+
+Quality Score: 8/10
+AI Confidence: 90%
+Critical Issues: 0
+Suggestions: 2
+Risk Level: LOW
+
+Findings can be categorized into areas such as:
+
+Bugs
+Security
+Performance
+Best Practices
+
+The review results are intended to assist developers during code review and do not replace human review.
+
+🖥️ Screenshots
+Dashboard
+<!-- Replace this placeholder with your dashboard screenshot -->
+
+AI Code Review Result
+<!-- Replace this placeholder with your review-result screenshot -->
+
+Findings
+<!-- Replace this placeholder with your findings screenshot -->
+
+Dark Mode
+<!-- Replace this placeholder with your dark-mode screenshot -->
+
+🛠️ Technology Stack
+Backend
+Java 17+
+Spring Boot
+Spring Security
+REST APIs
+Maven
+GitHub Integration
+GitHub REST API
+GitHub Pull Requests
+GitHub Webhooks
+GitHub review comments
+AI
+OpenAI
+Google Gemini
+Ollama
+Frontend
+HTML
+CSS
+Vanilla JavaScript
+🔐 Self-Hosted & Private
+
+CodeGuard AI is designed to run in your own environment.
+
+Your GitHub credentials and AI provider credentials can remain under your control.
+
+The application can work with repositories that the configured GitHub token has permission to access, including private repositories when the required permissions are configured.
+
+🎯 Who Is It For?
+
+CodeGuard AI is designed for:
+
+Java developers
+Spring Boot developers
+Backend developers
+Solo developers
+Small development teams
+Freelancers
+Developers building internal developer tools
+Developers experimenting with AI-assisted development workflows
+💡 Why Build Your Own AI Code Reviewer?
+
+Using a customizable source-code foundation gives developers the ability to modify the review workflow according to their own requirements.
+
+You can customize areas such as:
+
+AI prompts
+Review categories
+Risk assessment
+Quality scoring
+AI provider
+GitHub integration
+Dashboard
+Review workflow
+Authentication
+Additional developer tools
+📦 Source Code
+
+The complete CodeGuard AI source code is available as a separate commercial source-code package.
+
+The package includes:
+
+Complete Spring Boot source code
+Installation guide
+User manual
+API documentation
+Architecture documentation
+Database schema
+SQL database script
+Postman collection
+Environment configuration guide
+Sample repository guide
+Changelog
+License
+Build. Customize. Self-host.
+
+👉 Get CodeGuard AI Source Code - https://javacoder716.gumroad.com/l/codeguard-ai
+
+⚠️ Requirements
+
+The source-code project requires:
+
+Java 17+
+Maven 3.8+
+GitHub Personal Access Token
+OpenAI, Gemini, or Ollama
+A GitHub repository / Pull Request accessible by the configured token
+
+Detailed setup instructions are included with the source-code package.
+
+🔗 Links
+
+Source Code:
+https://javacoder716.gumroad.com/l/codeguard-ai
+
+GitHub Showcase:
+https://github.com/Sweety717/CodeGuard-AI
+
+Built by IsabiTech
+
+📄 License
+
+This public repository is a showcase/marketing repository for CodeGuard AI.
+
+The complete application source code is distributed separately under a commercial license.
+
+Please refer to the license included with the commercial source-code package for usage and redistribution terms.
