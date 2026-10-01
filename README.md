@@ -1,13 +1,35 @@
 # CodeGuard AI
 
-### Self-Hosted AI Code Review for GitHub Pull Requests
+### Own and customize your AI code-review workflow.
 
-CodeGuard AI is a self-hosted AI-powered code review platform built with Java 17+ and Spring Boot.
+CodeGuard AI is a self-hosted AI code reviewer for GitHub Pull Requests, built with Java 17+ and Spring Boot.
 
-It analyzes GitHub Pull Requests using configurable AI providers and identifies potential bugs, security issues, performance problems, and best-practice violations.
+Instead of relying only on a hosted code-review service, CodeGuard AI provides a customizable foundation for building and running your own AI-assisted review workflow.
 
-The project is designed for developers who want to build and customize their own AI-assisted code review workflow.
+Connect GitHub, choose your AI provider, and analyze Pull Requests for:
 
+- 🐛 Bugs and logic issues
+- 🔐 Security issues
+- ⚡ Performance problems
+- ✅ Best-practice violations
+
+### Why CodeGuard AI?
+
+CodeGuard AI is designed for developers who want control over their review workflow.
+
+You can:
+
+- Run it on your own infrastructure
+- Choose OpenAI, Google Gemini, or Ollama
+- Customize AI prompts and review instructions
+- Modify the review logic
+- Extend the GitHub integration
+- Customize the dashboard and workflow
+- Build additional developer-tool features on top of it
+
+**Self-hosted. Customizable. Multi-provider. Built with Spring Boot.**
+
+> The public repository is a showcase. The complete application source code is distributed separately.
 
 ## 🚀 Features
 
